@@ -1,0 +1,2 @@
+# flutter_wechat_share_plugin
+flutter版本的关于微信分享功能组件，包括分享文字，图片，音乐，网页以及打开微信小程序等，ios与安卓均已实现对应的功能
