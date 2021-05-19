@@ -1,2 +1,15 @@
-# flutter_wechat_share_plugin
-flutter版本的关于微信分享功能组件，包括分享文字，图片，音乐，网页以及打开微信小程序等，ios与安卓均已实现对应的功能
+# flutter_wechate_share_plugin
+
+A new flutter plugin project.
+
+## Getting Started
+
+This project is a starting point for a Flutter
+[plug-in package](https://flutter.dev/developing-packages/),
+a specialized package that includes platform-specific implementation code for
+Android and/or iOS.
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
