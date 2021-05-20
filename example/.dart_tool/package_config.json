@@ -38,6 +38,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "cupertino_icons",
+      "rootUri": "file:///Users/apple/.fvm/versions/1.22.5-stable/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///Users/apple/.fvm/versions/1.22.5-stable/.pub-cache/hosted/pub.flutter-io.cn/fake_async-1.2.0-nullsafety.1",
       "packageUri": "lib/",
@@ -54,6 +60,12 @@
       "rootUri": "file:///Users/apple/.fvm/versions/1.22.5-stable/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter_wechate_share_plugin",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
     },
     {
       "name": "matcher",
@@ -128,13 +140,13 @@
       "languageVersion": "2.10"
     },
     {
-      "name": "flutter_wechate_share_plugin",
+      "name": "flutter_wechate_share_plugin_example",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-05-20T07:11:44.014731Z",
+  "generated": "2021-05-20T07:11:44.450226Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }
