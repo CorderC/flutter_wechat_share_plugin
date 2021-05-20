@@ -16,6 +16,13 @@ flutter_wechat_share_plugin:
 
 ```
 
+### 方式二:在yaml文件中通过pub.dev仓库引入
+```yaml
+
+flutter_wechat_share_plugin: ^1.0.0
+
+```
+
 ## 关于微信插件的初始化配置方式
 ```dart
 import 'package:flutter_wechat_plugin/flutter_wechat_plugin.dart';
@@ -207,5 +214,7 @@ Widget build(BuildContext context) {
 
 ```
 
-[我的掘金主页](https://juejin.cn/user/2814346129574615)
+---
+
+## [详细介绍，👇这里](https://juejin.cn/post/6964254547036340237/)
 

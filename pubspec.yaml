@@ -1,7 +1,6 @@
-name: flutter_wechate_share_plugin
-description: A new flutter plugin project.
-version: 0.0.1
-author: CoderC<517952346@qq.com>
+name: flutter_wechat_share_plugin
+description: 一款在ios和安卓上都实现了微信基本功能(包括:微信分享，微信登陆，打开微信小程序..)的flutter组件.
+version: 1.0.0
 homepage: https://juejin.cn/user/2814346129574615
 
 environment:
@@ -15,6 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
