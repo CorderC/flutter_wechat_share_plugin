@@ -1,4 +1,4 @@
 #import <Flutter/Flutter.h>
-
-@interface FlutterWechateSharePlugin : NSObject<FlutterPlugin>
+#include "WXApi.h"
+@interface FlutterWechateSharePlugin : NSObject<FlutterPlugin,WXApiDelegate>
 @end

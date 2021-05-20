@@ -1,5 +1,5 @@
 #import "FlutterWechateSharePlugin.h"
-#include "WXApi.h"
+
 #import "FlutterWechateSharePlugin+TargetAction.h"
 // 注册
 static NSString *const METHOD_REGISTERAPP = @"register";
@@ -30,7 +30,7 @@ static NSString *const METHOD_ONSHAREMSGRESP = @"onShareMsgResp";
 static NSString *const ARGUMENT_KEY_RESULT_EXTMSG = @"extMsg";
 static NSString *const METHOD_ONLAUNCHMINIPROGRAMRESP = @"onLaunchMiniProgramResp";
 
-@interface FlutterWechateSharePlugin ()<WXApiDelegate>
+@interface FlutterWechateSharePlugin ()
 
 @end
 @implementation FlutterWechateSharePlugin
