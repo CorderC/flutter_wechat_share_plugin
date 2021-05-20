@@ -1,8 +1,8 @@
 name: flutter_wechate_share_plugin
 description: A new flutter plugin project.
 version: 0.0.1
-author:
-homepage:
+author: CoderC<517952346@qq.com>
+homepage: https://juejin.cn/user/2814346129574615
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
