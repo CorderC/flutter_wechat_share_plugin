@@ -1,8 +1,20 @@
-# flutter_wechat_plugin
+# flutter_wechat_share_plugin
 
 微信平台，flutter版本插件，该插件的主要功能有:
 1.配置工程在微信开放平台注册的appId参数，直接在flutter层进行统一配置，不需要，再在ios和android原生端进行单独配置
 2.分享文字，图片，音乐，网页，登录，打开小程序等功能统一在flutter层进行处理
+
+## 关于微信功能插件的引入方式方式
+
+### 方式一:在yaml文件中通过git地址引入
+```yaml
+
+flutter_wechat_share_plugin:
+    git:
+      url: 'https://github.com/clearCoro/flutter_wechat_share_plugin.git'
+      ref: 'main'
+
+```
 
 ## 关于微信插件的初始化配置方式
 ```dart
