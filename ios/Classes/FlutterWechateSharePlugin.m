@@ -76,6 +76,7 @@ static NSString *const METHOD_ONLAUNCHMINIPROGRAMRESP = @"onLaunchMiniProgramRes
         
         result([NSNumber numberWithBool:[WXApi openWXApp]]);
     }
+    // 微信登陆
     else if ([METHOD_LOGINWECHAT isEqualToString:call.method]) {
         
         NSString* scope= call.arguments[@"scope"];

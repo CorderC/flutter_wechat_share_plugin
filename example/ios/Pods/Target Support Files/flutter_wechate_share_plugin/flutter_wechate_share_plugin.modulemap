@@ -1,0 +1,6 @@
+module flutter_wechate_share_plugin {
+  umbrella header "flutter_wechate_share_plugin-umbrella.h"
+
+  export *
+  module * { export * }
+}

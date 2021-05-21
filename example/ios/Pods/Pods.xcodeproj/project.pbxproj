@@ -1,0 +1,1031 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8E273AC79246A03F0656A0128D4850EF /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		34EE3A2CE6AFEC0F0776BECA78760E31 /* UIApplication+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = EE9EF2FF6257D8F256EF10176CE0FA8F /* UIApplication+Hook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		372C78BC9EB499FAB960511E49F56D06 /* FlutterWechateSharePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C2DD859702A9B1A8A3E518D7436A5F /* FlutterWechateSharePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		403F9C4B9EADB4A913FC46F1EE5FB735 /* flutter_wechate_share_plugin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FB8B80D222D797B2FECE528EB7800 /* flutter_wechate_share_plugin-dummy.m */; };
+		59C5C042462B82BD7F988994C6C131E3 /* FlutterWechateSharePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B5145D0FB6C148BED9C16E05A60CF /* FlutterWechateSharePlugin.m */; };
+		75305DD5556BBE3D9D6AB8D8050B4657 /* UIApplication+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB358622454978C019AAE7AAC22BDC /* UIApplication+Hook.m */; };
+		911FFF22E66D75EAA54D944B528A7D68 /* FlutterWechateSharePlugin+TargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 290409AB8F0683D948F79290BFB4045F /* FlutterWechateSharePlugin+TargetAction.m */; };
+		A41B694CF873AF7F32D3475CE6BB1B44 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */; };
+		AECCE8B9F8093CD768C741A8A1061DA4 /* FlutterWechateSharePlugin+TargetAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B67F7B114C80A2E125F1290F62431B2C /* FlutterWechateSharePlugin+TargetAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDA204712D18D6A0E1CE03E55F3A62E3 /* flutter_wechate_share_plugin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F72ABCCEFFF56005E02CB0CDBB17B93D /* flutter_wechate_share_plugin-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		336AA5700A77ED4147C6756A6D3E0D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		8812A30E68171F344558DE9A21051446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		8D2B1641ACDAE10BD5B01AA335BBC270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		D6093108A4669109C43DE9F7733142B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7855C952DA6D611922094D49F42EB31;
+			remoteInfo = flutter_wechate_share_plugin;
+		};
+		F6AC47929FAB9AFD9EB7B1BB3D022983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083EAF1B59030634A32ABC6F743FB9F4 /* flutter_wechate_share_plugin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_wechate_share_plugin-prefix.pch"; sourceTree = "<group>"; };
+		0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		1187E2C2EFC4C71F2CC5A7F5CC7334F6 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		1302929B97E867BDC2B92FAA06FBE692 /* libflutter_wechate_share_plugin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libflutter_wechate_share_plugin.a; path = libflutter_wechate_share_plugin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		290409AB8F0683D948F79290BFB4045F /* FlutterWechateSharePlugin+TargetAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FlutterWechateSharePlugin+TargetAction.m"; path = "../../../../../../../ios/Classes/FlutterWechateSharePlugin+TargetAction.m"; sourceTree = "<group>"; };
+		3000AC7C082533F90B3A6B768A87BF4E /* flutter_wechate_share_plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_wechate_share_plugin.debug.xcconfig; sourceTree = "<group>"; };
+		30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		3CCB358622454978C019AAE7AAC22BDC /* UIApplication+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Hook.m"; path = "../../../../../../../ios/Classes/UIApplication+Hook.m"; sourceTree = "<group>"; };
+		3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		4CC99060972ACC7D2D49AD3BE8D2AADD /* flutter_wechate_share_plugin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_wechate_share_plugin.podspec; path = ../../../../../../ios/flutter_wechate_share_plugin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Runner.a"; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		7D88EB83E201EE88A58C90284C1B8576 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		7E2FB8B80D222D797B2FECE528EB7800 /* flutter_wechate_share_plugin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_wechate_share_plugin-dummy.m"; sourceTree = "<group>"; };
+		85F0675C9A965C6F0CCB1D71A8C9EAEB /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D63423D3281CF97EC8AF278A2986EEA /* flutter_wechate_share_plugin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_wechate_share_plugin.modulemap; sourceTree = "<group>"; };
+		8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1CEE234E023C66AB39A8646F24C1E4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		B67F7B114C80A2E125F1290F62431B2C /* FlutterWechateSharePlugin+TargetAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FlutterWechateSharePlugin+TargetAction.h"; path = "../../../../../../../ios/Classes/FlutterWechateSharePlugin+TargetAction.h"; sourceTree = "<group>"; };
+		C1DC89A052D18E6CF6A685711B12DB47 /* flutter_wechate_share_plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_wechate_share_plugin.release.xcconfig; sourceTree = "<group>"; };
+		C36B5145D0FB6C148BED9C16E05A60CF /* FlutterWechateSharePlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterWechateSharePlugin.m; path = ../../../../../../../ios/Classes/FlutterWechateSharePlugin.m; sourceTree = "<group>"; };
+		C6C2DD859702A9B1A8A3E518D7436A5F /* FlutterWechateSharePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterWechateSharePlugin.h; path = ../../../../../../../ios/Classes/FlutterWechateSharePlugin.h; sourceTree = "<group>"; };
+		D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE9EF2FF6257D8F256EF10176CE0FA8F /* UIApplication+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Hook.h"; path = "../../../../../../../ios/Classes/UIApplication+Hook.h"; sourceTree = "<group>"; };
+		F72ABCCEFFF56005E02CB0CDBB17B93D /* flutter_wechate_share_plugin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_wechate_share_plugin-umbrella.h"; sourceTree = "<group>"; };
+		FD42F64D942B1D0E66F84059136E4B6F /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F94AF253C13025268BC269376B8322E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA6C556BC2B125DF3A2E989C1D99335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B5C64ADF8C73CFAB5C43708D697781 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FD42F64D942B1D0E66F84059136E4B6F /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */,
+				8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */,
+				0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */,
+				0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */,
+				B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */,
+				DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */,
+				E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		138626EEB2093EE6F9D7A5BDCD6355E0 /* flutter_wechate_share_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				6EB4BD2992AA485FF931FEA58ABD8C22 /* ios */,
+			);
+			name = flutter_wechate_share_plugin;
+			path = flutter_wechate_share_plugin;
+			sourceTree = "<group>";
+		};
+		27B56D1FF059E77FABFF4D00C6291345 /* flutter_wechate_share_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				C91FF3E0F76DAD6C8B0951CFB4DBCF29 /* .. */,
+				598580776BF18ED0A165E5DB12C964A7 /* Pod */,
+				AE5CB0C473DD7C867B1B547D92F6A426 /* Support Files */,
+			);
+			name = flutter_wechate_share_plugin;
+			path = ../.symlinks/plugins/flutter_wechate_share_plugin/ios;
+			sourceTree = "<group>";
+		};
+		29F32075A6C917A485DE4785441D489C /* example */ = {
+			isa = PBXGroup;
+			children = (
+				D412E8D37C0A77FCD8C8F47F529FC156 /* ios */,
+			);
+			name = example;
+			path = example;
+			sourceTree = "<group>";
+		};
+		3679CDA2AFB4C16E53B3D54AEB774610 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE5AA33BEE4886C716BD882CCF5034 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		442E321EA015FDE2E94D57B7329E99E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85F0675C9A965C6F0CCB1D71A8C9EAEB /* Flutter.debug.xcconfig */,
+				1187E2C2EFC4C71F2CC5A7F5CC7334F6 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		44A0E823D0C5FA58B4A00DBEAF4828AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D88EB83E201EE88A58C90284C1B8576 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */,
+				664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */,
+				8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */,
+				8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */,
+				63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		598580776BF18ED0A165E5DB12C964A7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4CC99060972ACC7D2D49AD3BE8D2AADD /* flutter_wechate_share_plugin.podspec */,
+				A1CEE234E023C66AB39A8646F24C1E4D /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */,
+				3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		657A66CF862272C105C1DD832A33C754 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				29F32075A6C917A485DE4785441D489C /* example */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6EB4BD2992AA485FF931FEA58ABD8C22 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				D6F35FBAC9687938201305A58F488E75 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE5CB0C473DD7C867B1B547D92F6A426 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D63423D3281CF97EC8AF278A2986EEA /* flutter_wechate_share_plugin.modulemap */,
+				7E2FB8B80D222D797B2FECE528EB7800 /* flutter_wechate_share_plugin-dummy.m */,
+				083EAF1B59030634A32ABC6F743FB9F4 /* flutter_wechate_share_plugin-prefix.pch */,
+				F72ABCCEFFF56005E02CB0CDBB17B93D /* flutter_wechate_share_plugin-umbrella.h */,
+				3000AC7C082533F90B3A6B768A87BF4E /* flutter_wechate_share_plugin.debug.xcconfig */,
+				C1DC89A052D18E6CF6A685711B12DB47 /* flutter_wechate_share_plugin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/flutter_wechate_share_plugin";
+			sourceTree = "<group>";
+		};
+		AFA39C13ED8FC26B208EA60129686893 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A87E997627FB1F79B5BCEFC50BDFC3 /* Flutter */,
+				27B56D1FF059E77FABFF4D00C6291345 /* flutter_wechate_share_plugin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B0E4B9F003DEFD3A907F24E838BB2137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1302929B97E867BDC2B92FAA06FBE692 /* libflutter_wechate_share_plugin.a */,
+				669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A87E997627FB1F79B5BCEFC50BDFC3 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				44A0E823D0C5FA58B4A00DBEAF4828AE /* Frameworks */,
+				08B5C64ADF8C73CFAB5C43708D697781 /* Pod */,
+				442E321EA015FDE2E94D57B7329E99E1 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		C91FF3E0F76DAD6C8B0951CFB4DBCF29 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				657A66CF862272C105C1DD832A33C754 /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AFA39C13ED8FC26B208EA60129686893 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
+				B0E4B9F003DEFD3A907F24E838BB2137 /* Products */,
+				6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D412E8D37C0A77FCD8C8F47F529FC156 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				3679CDA2AFB4C16E53B3D54AEB774610 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		D6F35FBAC9687938201305A58F488E75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6C2DD859702A9B1A8A3E518D7436A5F /* FlutterWechateSharePlugin.h */,
+				C36B5145D0FB6C148BED9C16E05A60CF /* FlutterWechateSharePlugin.m */,
+				B67F7B114C80A2E125F1290F62431B2C /* FlutterWechateSharePlugin+TargetAction.h */,
+				290409AB8F0683D948F79290BFB4045F /* FlutterWechateSharePlugin+TargetAction.m */,
+				EE9EF2FF6257D8F256EF10176CE0FA8F /* UIApplication+Hook.h */,
+				3CCB358622454978C019AAE7AAC22BDC /* UIApplication+Hook.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8EE5AA33BEE4886C716BD882CCF5034 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				138626EEB2093EE6F9D7A5BDCD6355E0 /* flutter_wechate_share_plugin */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EAF3E8C75DC082D7A639FB951F07931 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820824B5B49998BD081EDEFFBC45AC23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA204712D18D6A0E1CE03E55F3A62E3 /* flutter_wechate_share_plugin-umbrella.h in Headers */,
+				AECCE8B9F8093CD768C741A8A1061DA4 /* FlutterWechateSharePlugin+TargetAction.h in Headers */,
+				372C78BC9EB499FAB960511E49F56D06 /* FlutterWechateSharePlugin.h in Headers */,
+				34EE3A2CE6AFEC0F0776BECA78760E31 /* UIApplication+Hook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A156D742B35861C9DC34926855362C87 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				3EAF3E8C75DC082D7A639FB951F07931 /* Headers */,
+				BF28B718A784578043C8E7C3C334B54D /* Sources */,
+				8CA6C556BC2B125DF3A2E989C1D99335 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F260F3384E7FA9DCDDD194BE9F28D80 /* PBXTargetDependency */,
+				AB89E86F637822A978934AF17F3C325C /* PBXTargetDependency */,
+				44EB458F0D70502C099793B628A07C95 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7855C952DA6D611922094D49F42EB31 /* flutter_wechate_share_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15FD65166ECACE4F6E0133CAEAE6350B /* Build configuration list for PBXNativeTarget "flutter_wechate_share_plugin" */;
+			buildPhases = (
+				820824B5B49998BD081EDEFFBC45AC23 /* Headers */,
+				04A9AEB06BEA99BB0C73D68446664DCF /* Sources */,
+				6F94AF253C13025268BC269376B8322E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77C5F20834C8AC1C126274DED3B03AF5 /* PBXTargetDependency */,
+				491EBDE2D444A2898BEAC1FB1C08C0DF /* PBXTargetDependency */,
+			);
+			name = flutter_wechate_share_plugin;
+			productName = flutter_wechate_share_plugin;
+			productReference = 1302929B97E867BDC2B92FAA06FBE692 /* libflutter_wechate_share_plugin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B0E4B9F003DEFD3A907F24E838BB2137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				E7855C952DA6D611922094D49F42EB31 /* flutter_wechate_share_plugin */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A9AEB06BEA99BB0C73D68446664DCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403F9C4B9EADB4A913FC46F1EE5FB735 /* flutter_wechate_share_plugin-dummy.m in Sources */,
+				911FFF22E66D75EAA54D944B528A7D68 /* FlutterWechateSharePlugin+TargetAction.m in Sources */,
+				59C5C042462B82BD7F988994C6C131E3 /* FlutterWechateSharePlugin.m in Sources */,
+				75305DD5556BBE3D9D6AB8D8050B4657 /* UIApplication+Hook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF28B718A784578043C8E7C3C334B54D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41B694CF873AF7F32D3475CE6BB1B44 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44EB458F0D70502C099793B628A07C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_wechate_share_plugin;
+			target = E7855C952DA6D611922094D49F42EB31 /* flutter_wechate_share_plugin */;
+			targetProxy = D6093108A4669109C43DE9F7733142B2 /* PBXContainerItemProxy */;
+		};
+		491EBDE2D444A2898BEAC1FB1C08C0DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = F6AC47929FAB9AFD9EB7B1BB3D022983 /* PBXContainerItemProxy */;
+		};
+		77C5F20834C8AC1C126274DED3B03AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 8D2B1641ACDAE10BD5B01AA335BBC270 /* PBXContainerItemProxy */;
+		};
+		9F260F3384E7FA9DCDDD194BE9F28D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 336AA5700A77ED4147C6756A6D3E0D1F /* PBXContainerItemProxy */;
+		};
+		AB89E86F637822A978934AF17F3C325C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 8812A30E68171F344558DE9A21051446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		020B44FD9B6A8A60316366296ECF917E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3000AC7C082533F90B3A6B768A87BF4E /* flutter_wechate_share_plugin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_wechate_share_plugin/flutter_wechate_share_plugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/flutter_wechate_share_plugin/flutter_wechate_share_plugin.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_wechate_share_plugin;
+				PRODUCT_NAME = flutter_wechate_share_plugin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		052006C11EC8013903D2C0678D452186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1187E2C2EFC4C71F2CC5A7F5CC7334F6 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C774B9E70F55E555DA446EB5728B2A5 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DC89A052D18E6CF6A685711B12DB47 /* flutter_wechate_share_plugin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_wechate_share_plugin/flutter_wechate_share_plugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/flutter_wechate_share_plugin/flutter_wechate_share_plugin.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_wechate_share_plugin;
+				PRODUCT_NAME = flutter_wechate_share_plugin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		0D3A93A1D434FDC7E18E450114317E65 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1187E2C2EFC4C71F2CC5A7F5CC7334F6 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		16042EE55981371D1036C0A1F9DC4355 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		231EBBED21EBFA9E197E0B25B7A2AFDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F0675C9A965C6F0CCB1D71A8C9EAEB /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23B3DAC98070B9B05F70D022C7B1E1CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4AC17E5E5FB9F2FFF05E88EFD49D95C8 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		6C5AE4FF6B5066FC78FF1882EAD89EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82147EC2BC87E4F305B70EFA06E3A130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DD5DCA00193FCA68E685B85CFAD185AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DC89A052D18E6CF6A685711B12DB47 /* flutter_wechate_share_plugin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_wechate_share_plugin/flutter_wechate_share_plugin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/flutter_wechate_share_plugin/flutter_wechate_share_plugin.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = flutter_wechate_share_plugin;
+				PRODUCT_NAME = flutter_wechate_share_plugin;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E24F9DAA07B42F9A9496D1EFC89F79E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F782633546C528B18093FC4B0B2ACE73 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15FD65166ECACE4F6E0133CAEAE6350B /* Build configuration list for PBXNativeTarget "flutter_wechate_share_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020B44FD9B6A8A60316366296ECF917E /* Debug */,
+				0C774B9E70F55E555DA446EB5728B2A5 /* Profile */,
+				DD5DCA00193FCA68E685B85CFAD185AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				4AC17E5E5FB9F2FFF05E88EFD49D95C8 /* Profile */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E273AC79246A03F0656A0128D4850EF /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E24F9DAA07B42F9A9496D1EFC89F79E5 /* Debug */,
+				16042EE55981371D1036C0A1F9DC4355 /* Profile */,
+				23B3DAC98070B9B05F70D022C7B1E1CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231EBBED21EBFA9E197E0B25B7A2AFDE /* Debug */,
+				0D3A93A1D434FDC7E18E450114317E65 /* Profile */,
+				052006C11EC8013903D2C0678D452186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A156D742B35861C9DC34926855362C87 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5AE4FF6B5066FC78FF1882EAD89EE5 /* Debug */,
+				F782633546C528B18093FC4B0B2ACE73 /* Profile */,
+				82147EC2BC87E4F305B70EFA06E3A130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

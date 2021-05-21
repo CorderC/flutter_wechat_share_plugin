@@ -44,7 +44,7 @@ class FlutterWechateSharePlugin {
     return result;
   }
 
-  ///打开小程序
+  ///打开微信小程序
   /*
   * originalId: 组织id,必传参数
   * path 小程序页面的路径 不填默认拉起小程序首页

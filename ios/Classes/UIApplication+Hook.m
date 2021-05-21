@@ -59,6 +59,7 @@ classSelectorHook(Class class,SEL selector)
         classSelectorHook([delegate class], @selector(application:openURL:options:));
         classSelectorHook([delegate class], @selector(application:openURL:sourceApplication:annotation:));
         classSelectorHook([delegate class], @selector(application:continueUserActivity:restorationHandler:));
+        
     });
 
     // 此时的flutter_setDelegate为原delegate，保证不影响原始功能
