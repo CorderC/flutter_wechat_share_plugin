@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
 
 ## 微信分享相关使用示例
 
-<img src="http://gitlab.sinoiov.com/LHJH/flutter/plugin/wechat_flutter/uploads/7cb3d55a7394c95c0748e614ae327eca/Simulator_Screen_Shot_-_iPhone_12_Pro_-_2021-03-18_at_09.29.29.png" width = "321" height = "694" alt="默认主题，银行卡列表界面" align=center />
+<img src="https://user-images.githubusercontent.com/12521298/120617221-7c037900-c48c-11eb-9664-50fff684cbd6.png" width = "321" height = "694" />
 
 
 ```dart
